@@ -1,5 +1,5 @@
 import pygame
-from entidad import Entidad
+from entidad2 import Entidad
 #Clase que representa al personaje jugable del juego 
 class Player (Entidad):
     
@@ -218,7 +218,7 @@ class Player (Entidad):
             self.estado = "esquivar"
             self.frame_index=0
             
-            distancia_esquivar = 100
+            distancia_esquivar = 150
 
             #Usamos esta funcion para poder esquivar cuando este mirando hacia la derecha 
             if self.direccion == "derecha":
